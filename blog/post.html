@@ -1,0 +1,295 @@
+<!-- Homework #1 - Styling Blog Post Using Bootstrap -->
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<!-- Link to Bootstrap CSS libraries, so we can access directly -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Vidaloka&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Notable&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Kosugi&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Alike&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Bowlby+One&display=swap" rel="stylesheet">
+
+		<!-- Header used for About Section of Blog template -->
+		<link href="https://fonts.googleapis.com/css?family=Wire+One&display=swap" rel="stylesheet">
+
+		<!-- content used for About Section for Blog template -->
+		<link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Pontano+Sans&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Girassol&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
+
+
+        <!-- STYLE SHEET-->
+		<style>	
+			
+			/*font specifically for large headers*/
+			h1{
+				font-family: 'Odibee Sans', cursive;
+
+			}
+
+			h4{
+				font-family: 'Wire One', sans-serif;
+			}
+
+			p{
+				font-family: 'Nanum Myeongjo', serif;
+			}
+
+			h3{
+				font-family: 'Alike', serif;
+				
+			}
+
+			
+			.minHeightForTextBox{
+				min-height: 100vh;
+			}
+
+			div.a{
+				text-align: left;
+				padding-left: 35px;
+			}
+
+			div.b{
+				text-align: center;
+			}
+
+
+			#menuButton{
+				font-family: 'Oswald', sans-serif;
+				padding-left: 45%
+
+			}
+
+			#aboutMeSection{
+				font-family: 'Libre Caslon Display', serif;
+				padding-left: 15px;
+
+			}
+
+
+			/*to be applied to portrait image in About section*/
+			#thumbnail {
+				width: 15%
+
+			}
+
+			#blogImage{
+				width: 53%
+
+			}
+
+
+			#BGlighter{
+				background-color: #faf7f7
+			}
+
+			#aboutMeParagraph{
+				font-family: 'Pontano Sans', sans-serif;
+			}
+
+			.navbar-custom{
+				background-color: #1f1715
+			}
+		</style>
+	</head>
+
+	<!------------------------------------------------------------------------------->
+	<body>
+		
+
+		<!-- nav menu -->
+		
+		<nav class='navbar fixed-top navbar-expand-lg navbar-custom' id="top-navbar">
+			<ul class="nav navbar-nav ml-auto">
+				<li id="menuButton"> <a href='../index.html'> Home </a> </li>
+			</ul>
+		</nav>
+		
+
+		<!------------------------------------------------------------------------------->
+
+		<!-- CONTAINER: Title of Blog -->
+		<div class='container-fluid p-1'>
+			<section class='container-fluid p-3'>
+				<div>
+					<br>
+					<h1 class="p-2"> Why Computer Science? </h1>
+			
+
+					<img class="img-fluid p-3" src='../images/guy_computer.jpg'>
+
+				</div>
+			</section>
+		</div>
+			
+		
+		<!------------------------------------------------------------------------------->
+
+
+		<!-- CONTAINER: Intro Paragraph -->
+		<div class='container-fluid p-1 b'>
+			<section class='container-fluid p-1'>
+				<h3>What’s in it for me? </h3>
+				<p>
+				<br>
+				</p>
+		    </section>
+		</div>
+		
+
+		<!-- CONTAINER: 1st Paragraph (topic) -->
+		<div class='container-fluid p-1 a' id="BGlighter">
+			<section class='container-fluid p-3 minHeightForTextBox'>
+				<br>
+				<h3>1. Tradeoffs</h3>
+				<br>
+				<p>
+					
+					After being in business for over 10 years, I’ve realized there are tradeoffs in all industries. With finite time and resources, we can’t have it all. Rarely do we find ourselves with the ideal combination of ingredients. Most the time, we have to sacrifice one thing to get another. 
+					<br>
+					<br>
+					So now that I’m entering the tech world, I want to know what those ingredients are. I want to know which things I can combine and which I cannot. I want to know the relative costs/benefits to each of those ingredients. 
+					<br>
+					<br>
+					In general, I want to know how to make smart tradeoff decisions when it comes to technology used in any business model.
+
+				</p>
+				
+				<img class='img-fluid p-3' src="../images/tradeoffGuy.jpg" id="blogImage">
+				
+			</section>
+		</div>
+
+
+
+
+		<!-- CONTAINER: 2nd Paragraph (topic) -->
+		<div class = 'container-fluid p-3 a' id="BGlighter">
+			<section class='container-fluid p-2 minHeightForTextBox'>
+				<br>
+				<h3>2. Design</h3>
+				<br>
+				<p>
+					Design is another area that I’m really obsessed with lately. I have a true appreciation for really good design. I appreciate the time and effort that goes into creating something that delights others. Something that’s effortless to interact with. The psychology that goes into great design is something I’d love to dig into. 
+					<br>
+					<br>
+					Aside from the aesthetics and user experience, I’d like to know how feasibility is factored into the design aspect of creating products. What are my limitations and how do I work around that in my design? What are my constraints? 
+
+				</p>
+				
+				<img class='img-fluid p-3' src="../images/Design.jpg" id="blogImage">
+			
+			</section>
+		</div>
+
+		
+
+
+		<!-- CONTAINER: 3rd Paragraph (topic) -->
+		<div class='container-fluid p-3 a' id="BGlighter">
+			<section class='container-fluid p-2 minHeightForTextBox'>
+				<br>
+				<h3>3. Implementation</h3>
+				<br>
+				<p>
+					I have to be honest: there’s something really satisfying about being able to build things yourself. Just knowing how to put something into production without relying on a third-party service is great. 
+					<br>
+					<br>
+					Over my career, I’ve worked with media companies to design our hotel websites. And I worked closely with the companies that provided our cloud-based systems. So, my role has always been as the technology consumer. Being able to understand the software solutions but not the software implementation has always been a source of frustration for me. 
+					<br>
+					<br>
+					But now that I’m learning software design and exploring several programming languages, I’m starting to connect the dots from those earlier experiences working with technology providers. I’m starting to understand some of the underlying designs. And that’s always empowering and exciting. 
+
+					
+				</p>
+				<img class='img-fluid p-3' src="../images/businessMeeting.jpg" id="blogImage">
+			</section>
+		<br>
+		</div>
+		
+	
+
+
+
+		<!-- CONTAINER: Wrap it Up -->
+		<div class='container-fluid p-3 b'>
+			<section class='container-fluid p-1'>
+				<br>
+				<h3>There’s real power in being able to speak that language…</h3>
+				<p>
+					<br>
+					Studying Computer Science is undeniably a good move. Even for non-technical backgrounds, it provides you with a certain competency that you would not have had otherwise. It puts you in a position to make smarter choices when it comes to the technology you use in your work and your life. 
+					<br>
+					<br>
+					Technology has permeated every sector, every industry, every individual. To be able to understand what lies beneath it all is extremely powerful. Having that technical understanding allows you to change it, improve it, and make it better. 
+					<br>
+					<br>
+					That’s a great position to be in. That’s the position I want to be in. 
+
+				</p>
+				<br>
+			</section>
+		</div>
+		
+		<hr>
+		<hr>
+
+		<!------------------------------------------------------------------------------->
+		<!-- ENDING Section -->
+		<div class="container-xl p-1">
+			<section>
+				<h4>About Abby</h4>
+				<img src='../images/abbyautin.jpeg' class="img-thumbnail float-left img-responsive" id="thumbnail">
+				<small>
+					<p id="aboutMeParagraph">This is about me...</p>
+				</small>
+			</section>
+		</div>
+
+
+		<!-- inserted the script tags from lab #3 -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+
+	</body>
+
+</html>
+

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+	
+	
+	
+	<head>
+
+		
+		<title>Abby's Portfolio</title> 
+		
+		<!-- Bootstrap access -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Advent+Pro&display=swap" rel="stylesheet">
+
+
+		<!-- ACCORDION-RELATED -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+	<!-- ***************************** -->
+
+		<style>
+			
+
+			
+			.accordion {
+			  background-color: #eee;
+			  color: #444;
+			  cursor: pointer;
+			  padding: 18px;
+			  width: 100%;
+			  border: none;
+			  text-align: left;
+			  outline: none;
+			  font-size: 22px;
+			  transition: 0.4s;
+			}
+
+			.active, .accordion:hover {
+			  background-color: #ccc;
+			}
+
+			.accordion:after {
+			  content: '\002B';
+			  color: #777;
+			  font-weight: bold;
+			  float: right;
+			  margin-left: 5px;
+			}
+
+			.active:after {
+			  content: "\2212";
+			}
+
+			.panel {
+			  padding: 0 18px;
+			  background-color: white;
+			  max-height: 0;
+			  overflow: hidden;
+			  transition: max-height 0.2s ease-out;
+			}
+	
+
+
+
+
+			section:before{
+				height: 54px;
+				content: "";
+				
+			}
+
+
+			section{
+			
+				min-height: 100vh;
+				font-family: 'Dosis';
+				
+			}
+
+			
+
+			#top-navbar{
+				font-family: 'Satisfy';
+				font-size: 19px;
+				
+			}
+
+
+			.nav-item{
+				font-family: 'Advent Pro';
+				font-size: 18px;
+			}
+	
+
+
+			#section-showcase{
+				background-image: url(./images/jumbotron_image.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+
+
+
+			#prim-light-background{
+				background-color: #ffffff
+			}
+
+
+
+			#second-light-background{
+				background-color: #DCD2CF
+			}
+
+		
+
+
+			html{
+				scroll-behavior: smooth;
+			}
+
+
+
+		</style>
+
+	</head>
+	<!-- END: Meta Data -->
+
+
+	<!-- ************************************************************************************ -->
+
+
+	<body>
+		<!-- NAVBAR: begin -->
+		<!-- Navigation Bar: the first thing inside the viewport -->
+		<nav id="top-navbar" class='pt-2 navbar fixed-top navbar-expand-lg navbar-dark bg-dark'> 
+			<a class='navbar-brand' href="#section-showcase"> Abby Autin</a>
+			
+
+			<!-- Just focused on the responsive drop-down toggle menu BUTTON -->
+			<button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#menu'>
+				<span class='navbar-toggler-icon'></span>
+			</button>
+			<!--  -->
+
+
+
+			<!-- The actual menu options that are inside the Navigation Bar -->
+			<div class='collapse navbar-collapse' id='menu'>
+				<ul class='nav navbar-nav ml-auto'>
+					<li class='nav-item'> <a class='nav-link' href="#section-home"> Home </a> </li>
+					<li class='nav-item'> <a class='nav-link' href="#section-about"> About </a> </li>
+					<li class='nav-item'> <a class='nav-link' href="#section-projects"> Projects </a> </li>
+					<li class='nav-item'> <a class='nav-link' href="#section-blog"> Blog </a> </li>
+					<li class='nav-item'> <a class='nav-link' href="#section-contact"> Contact </a> </li>
+				</ul>
+			</div>
+		
+		</nav>
+		<!-- NAVBAR: end -->
+		
+
+	<!-- ************************************************************************************ -->
+
+
+		<!-- What have we done to this content?? -->
+		<section id="section-showcase" class='jumbotron d-flex align-items-center'>
+			<div class='container text-center text-light'>
+				<h1>Business + Tech</h1>
+				<p>Student in Finance & Computer Science</p>
+			</div>
+		</section>
+
+		
+	<!-- ************************************************************************************ -->
+
+
+		<!-- WELCOME -->
+		<div class='container-fluid' id="prim-light-background">
+			<section id="section-home" class='container-fluid'>
+				<h2>Welcome</h2>
+				<br>
+			
+				<p>
+					This section welcomes people to your page and summarizes what the page is about and what the purpose of it is for. Add your own comments here.
+				</p>
+			</section>
+		</div>
+		
+
+
+		<!-- ABOUT -->
+		<div class='container-fluid' id="second-light-background">
+			<section id="section-about" class='pt-4 container-fluid p-3'>
+				<h2>About</h2>
+				<br>
+			
+				
+
+				<div class='row'>
+					<div class="col-lg-2 col-sm-4">
+						<img src="images/profile.png" class='img-fluid'>
+					</div>
+
+					<div class="col-lg-10 col-sm-8">
+						
+						<p>This is info about me.</p>
+					</div>
+				</div>
+			</section>
+		</div>
+
+
+
+
+		<!-- SKILLS -->
+		<div class='container-fluid' id="prim-light-background">	
+			<section id="section-skills" class='pt-4 container-fluid p-3'>
+				<h2>Skills</h2>
+				<br>
+				<!-- ** BEGIN ACCORDION ** -->
+				<button class="accordion">Technical</button>
+				<div class="panel">
+					<table class='table mt-4'>	
+						<thead>
+							<tr>
+								<th colspan='2' class='text-left'> <h2>Technical Skills</h2> </th>
+							</tr>
+						</thead>
+
+						<tbody>
+							<tr>
+								<th class='text-right'> Programming tools:  </th>
+								<td class='text-left'> Java, Javascript </td>
+							</tr>
+
+							<tr>
+								<th class='text-right'> Frontend tools:  </th>
+								<td class='text-left'> HTML, CSS </td>
+							</tr>
+
+							<tr>
+								<th class='text-right'> Database tools:  </th>
+								<td class='text-left'> MongoDB, Mongoose, SQL </td>
+							</tr>
+
+							<tr>
+								<th class='text-right'> Version Control & Deployment tools: </th>
+								<td class='text-left'> git, github, gitlab </td>
+							</tr>
+
+							<tr>
+								<th class='text-right'> Architecture & Design: </th>
+								<td class='text-left'> OOP, MEAN Stack, REST, Agile, TDD </td>
+							</tr>
+
+						</tbody>
+					</table>
+					<!-- ** END ACCORDION ** -->
+				</div>
+			</section>
+		</div>
+
+
+
+		<!-- PROJECTS -->
+		<div class='container-fluid' id="second-light-background">
+			<section id="section-projects" class='pt-5 container-fluid p-3'>
+				<h2> Projects </h2>
+				<br>
+				<p> Summary of all the projects you have worked on. </p>
+				<br>
+				<br>
+				
+				<div class='container'>
+					<div id="projects" class='card-deck text-center'>
+						<a class='card bg-dark btn' href='#' target="_blank">
+							
+							<div class='card-header'>
+								<p class='text-light'> Project </p>
+							</div>
+							<img class='card-img-top' src='images/logo.png'>
+							<div class='card-body'>
+								<h4 class='card-title text-light'> Project Name </h4>
+							</div>
+							<div class='card-footer'>
+								<small class='text-muted'> by Abby Autin </small>
+							</div>
+
+						</a>	
+
+						<a class='card bg-dark btn' href='#' target="_blank">
+							
+							<div class='card-header'>
+								<p class='text-light'> Project </p>
+							</div>
+							<img class='card-img-top' src='images/logo.png'>
+							<div class='card-body'>
+								<h4 class='card-title text-light'> Project Name </h4>
+							</div>
+							<div class='card-footer'>
+								<small class='text-muted'> by Abby Autin </small>
+							</div>
+
+						</a>	
+
+					</div>
+				</div>
+				<br>
+				<br>
+				<br>
+				<br>
+				
+			</section>
+		</div>
+
+
+
+		<!-- BLOG -->
+		<div class='container-fluid' id="prim-light-background">
+			<section id="section-blog" class='pt-5 p-3 container-fluid'>
+				<h2> Blog </h2>
+				<hr>
+				<p> Overview of this blog. </p>
+				<hr>
+				<article class='container'>
+					<h3> Why Computer Science? </h3>
+					<small> Posted by Abby Autin on Feb 11, 2020 </small>
+					<p> Summary of this blog post </p>
+					<a class='btn btn-outline-dark' href='blog/post.html'> Read More </a>
+					<hr>
+				</article>
+
+
+		
+				<article class='container'>
+					<h3> HW #2 - Reflections </h3>
+					<small> Posted by Abby Autin on Feb 29, 2020 </small>
+					<p> Summary of this blog post </p>
+					<a class='btn btn-outline-dark' href='blog/post2.html'> Read More </a>
+					<hr>
+				</article>
+			</section>
+		</div>
+
+
+
+
+		<!-- CONTACT -->
+		<div class='container-fluid'>
+			<section id="section-contact" class='bg-secondary container-fluid p-4'>
+				<h2> Contact </h2>
+				<br>
+				<h4 class='text-center'> Send message </h4>
+				<form>
+					<div class='form-group'>
+						<input class='form-control' type="text" id="name" placeholder="Abby Autin">
+					</div>
+
+					<div>
+						<input class='form-control' type="email" id="email" placeholder="abby.autin@gmail.com"> 
+					</div class='form-group'>
+
+
+					<div>
+						<input class='form-control' type="subject" id="subject" placeholder="Subject">
+					</div>
+
+					<div class='form-group'>
+						<textarea class='form-control' rows="4" id="message" placeholder="Message">
+						</textarea>
+					</div>
+
+					<button class='btn btn-lg btn-primary' type="submit"> Submit </button>
+				</form>
+			</section>
+		</div>
+
+
+	<!-- ************************************************************************************ -->
+
+
+		<footer class='bg-light'>
+			<div class='container text-muted text-center'>
+				<p> Copyright &copy; 2020 Abby Autin </p>
+			</div>
+		</footer>
+
+
+	<!-- ************************************************************************************ -->
+
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+		<script src="scripts/interactive.js"></script>
+
+
+	</body>
+</html>
