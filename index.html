@@ -34,7 +34,7 @@
 
 			
 			.accordion {
-			  background-color: #eee;
+			  background-color: #F9F9F9;
 			  color: #444;
 			  cursor: pointer;
 			  padding: 18px;
@@ -64,14 +64,12 @@
 
 			.panel {
 			  padding: 0 18px;
-			  background-color: white;
+			  background-color: #F7F8FA;
 			  max-height: 0;
 			  overflow: hidden;
 			  transition: max-height 0.2s ease-out;
 			}
 	
-
-
 
 
 			section:before{
@@ -110,8 +108,11 @@
 				background-size: cover;
 			}
 
+			#section-contact{
+				background-color: #919195
+			}
 
-
+			
 			#prim-light-background{
 				background-color: #ffffff
 			}
@@ -119,10 +120,8 @@
 
 
 			#second-light-background{
-				background-color: #DCD2CF
+				background-color: #E7E7EB
 			}
-
-		
 
 
 			html{
@@ -187,8 +186,8 @@
 
 
 		<!-- ABOUT -->
-		<div class='container-fluid' id="second-light-background">
-			<section id="section-about" class='pt-4 container-fluid p-3'>
+		<div class='container-fluid' id="prim-light-background">
+			<section id="section-about" class='container-fluid p-3'>
 				<h2>About</h2>
 				<br>
 			
@@ -196,7 +195,7 @@
 
 				<div class='row'>
 					<div class="col-lg-2 col-sm-4">
-						<img src="images/profile.png" class='img-fluid'>
+						<img src="images/abbyautin.jpeg" class='img-fluid'>
 					</div>
 
 					<div class="col-lg-10 col-sm-8">
@@ -211,7 +210,7 @@
 
 
 		<!-- SKILLS -->
-		<div class='container-fluid' id="prim-light-background">	
+		<div class='container-fluid' id="second-light-background">	
 			<section id="section-skills" class='pt-4 container-fluid p-3'>
 				<h2>Skills</h2>
 				<br>
@@ -255,14 +254,16 @@
 					</table>
 					<!-- ** END ACCORDION ** -->
 				</div>
+				<br>
+				<br>
 			</section>
 		</div>
 
 
 
 		<!-- PROJECTS -->
-		<div class='container-fluid' id="second-light-background">
-			<section id="section-projects" class='pt-5 container-fluid p-3'>
+		<div class='container-fluid' id="prim-light-background">
+			<section id="section-projects" class='pt-4 container-fluid p-3'>
 				<h2> Projects </h2>
 				<br>
 				<p> Summary of all the projects you have worked on. </p>
@@ -314,8 +315,8 @@
 
 
 		<!-- BLOG -->
-		<div class='container-fluid' id="prim-light-background">
-			<section id="section-blog" class='pt-5 p-3 container-fluid'>
+		<div class='container-fluid' id="second-light-background">
+			<section id="section-blog" class='pt-4 p-3 container-fluid'>
 				<h2> Blog </h2>
 				<hr>
 				<p> Overview of this blog. </p>
@@ -345,7 +346,7 @@
 
 		<!-- CONTACT -->
 		<div class='container-fluid'>
-			<section id="section-contact" class='bg-secondary container-fluid p-4'>
+			<section id="section-contact" class='container-fluid p-4'>
 				<h2> Contact </h2>
 				<br>
 				<h4 class='text-center'> Send message </h4>
