@@ -11,6 +11,8 @@ for (i = 0; i < acc.length; i++) {
     
   	// used for true or false (the inverse) - active is revealed 
     this.classList.toggle("active");
+    
+
     //iterate through each element nested inside the accordion
     var panel = this.nextElementSibling;
     
