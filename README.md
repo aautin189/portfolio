@@ -21,6 +21,10 @@ DAILIES:
 - updated README file; created like a backlog to track anything I think could be made better or anything that is still left to do
 
 
+(3/17)
+
+- removed jumbotron section; was no longer necessary since text info is now incorporated into image
+- added second accordion to hold all info related to Business skills
 ++++++++++++++++++++++++++
 
 
