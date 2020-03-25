@@ -127,6 +127,11 @@
 				scroll-behavior: smooth;
 			}
 
+			.table{
+				border-style: double;
+				padding:10%;
+			}
+
 
 
 		</style>
@@ -165,6 +170,7 @@
 				<ul class='nav navbar-nav ml-auto'>
 					<li class='nav-item'> <a class='nav-link' href="#section-home"> Home </a> </li>
 					<li class='nav-item'> <a class='nav-link' href="#section-about"> About </a> </li>
+					<li class='nav-item'> <a class='nav-link' href="#section-skills"> Skills </a> </li>
 					<li class='nav-item'> <a class='nav-link' href="#section-projects"> Projects </a> </li>
 					<li class='nav-item'> <a class='nav-link' href="#section-blog"> Blog </a> </li>
 					<li class='nav-item'> <a class='nav-link' href="#section-contact"> Contact </a> </li>
@@ -252,17 +258,17 @@
 
 						<tbody>
 							<tr>
-								<th class='text-right'> Programming tools:  </th>
-								<td class='text-left'> Java, Javascript </td>
+								<th class='text-right'> Programming tools: </th>
+								<td class='text-left'>Java, Javascript </td>
 							</tr>
 
 							<tr>
-								<th class='text-right'> Frontend tools:  </th>
+								<th class='text-right'> Frontend tools: </th>
 								<td class='text-left'> HTML, CSS </td>
 							</tr>
 
 							<tr>
-								<th class='text-right'> Database tools:  </th>
+								<th class='text-right'> Database tools: </th>
 								<td class='text-left'> MongoDB, Mongoose, SQL </td>
 							</tr>
 
@@ -300,51 +306,55 @@
 			<section id="section-projects" class='pt-4 container-fluid p-3'>
 				<h2> Projects </h2>
 				<br>
+				<hr>
 				<p> Summary of all the projects you have worked on. </p>
-				<br>
+				<hr>
 				<br>
 				
-				<div class='container'>
-					<div id="projects" class='card-deck text-center'>
-						<a class='card bg-dark btn' href='#' target="_blank">
-							
-							<div class='card-header'>
-								<p class='text-light'> Project </p>
-							</div>
-							<img class='card-img-top' src='images/logo.png'>
-							<div class='card-body'>
-								<h4 class='card-title text-light'> Project Name </h4>
-							</div>
-							<div class='card-footer'>
-								<small class='text-muted'> by Abby Autin </small>
-							</div>
-
-						</a>	
-
-						<a class='card bg-dark btn' href='#' target="_blank">
-							
-							<div class='card-header'>
-								<p class='text-light'> Project </p>
-							</div>
-							<img class='card-img-top' src='images/logo.png'>
-							<div class='card-body'>
-								<h4 class='card-title text-light'> Project Name </h4>
-							</div>
-							<div class='card-footer'>
-								<small class='text-muted'> by Abby Autin </small>
-							</div>
-
-						</a>	
-
+				<!-- Project #1 -->
+				<div class="row p-2">
+						
+					<div class="col-sm-2">
+						<img src='../images/profile.png' class='img-thumbnail float-left img-responsive'>	
 					</div>
+					
+					
+					<div class="col-sm-10">
+						<h3> Project #1 </h3>
+						<p> Explanation of this project. </p>
+						<a class='btn btn-outline-dark' href=''>Source Code </a>
+						<a class='btn btn-outline-dark' href=''> Demo </a>
+						<hr>	
+					</div>
+					
 				</div>
+
+
+				<!-- Project #2 -->
+				<div class="row p-2">
+						
+					<div class="col-sm-2">
+						<img src='/images/profile.png' class='img-thumbnail float-left img-responsive'>	
+					</div>
+					
+					
+					<div class="col-sm-10">
+						<h3> Project #2 </h3>
+						<p> Explanation of this project. </p>
+						<a class='btn btn-outline-dark' href=''>Source Code </a>
+						<a class='btn btn-outline-dark' href=''> Demo </a>
+						<hr>	
+					</div>
+					
+				</div>
+
 				<br>
 				<br>
 				<br>
 				<br>
-				
 			</section>
 		</div>
+
 
 
 
@@ -361,7 +371,7 @@
 				<article class='container'>
 					<h3> Why Computer Science? </h3>
 					<small> Posted by Abby Autin on Feb 11, 2020 </small>
-					<p> Summary of this blog post </p>
+					<p> In this post, I reflect on the benefits of studying Computer Science. </p>
 					<a class='btn btn-outline-dark' href='blog/post.html'> Read More </a>
 					<hr>
 				</article>
@@ -371,7 +381,7 @@
 				<article class='container'>
 					<h3> HW #2 - Reflections </h3>
 					<small> Posted by Abby Autin on Feb 29, 2020 </small>
-					<p> Summary of this blog post </p>
+					<p> Reflecting on the process of styling my portfolio site using Bootstrap. </p>
 					<a class='btn btn-outline-dark' href='blog/post2.html'> Read More </a>
 					<hr>
 				</article>

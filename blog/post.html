@@ -92,18 +92,6 @@
 
 			}
 
-			#aboutMeSection{
-				font-family: 'Libre Caslon Display', serif;
-				padding-left: 15px;
-
-			}
-
-
-			/*to be applied to portrait image in About section*/
-			#thumbnail {
-				width: 15%
-
-			}
 
 			#blogImage{
 				width: 53%
@@ -115,8 +103,16 @@
 				background-color: #faf7f7
 			}
 
+
+			#aboutMeSection{
+				font-family: 'Libre Caslon Display', serif;
+				padding-left: 15px;
+
+			}
+
 			#aboutMeParagraph{
 				font-family: 'Pontano Sans', sans-serif;
+
 			}
 
 			.navbar-custom{
@@ -267,15 +263,32 @@
 		<hr>
 
 		<!------------------------------------------------------------------------------->
-		<!-- ENDING Section -->
-		<div class="container-xl p-1">
-			<section>
+		<!-- ABOUT Section -->
+		<div id="aboutMeSection">
+			
+
+			<!-- About Section (Header) -->
+			<div>
 				<h4>About Abby</h4>
-				<img src='../images/abbyautin.jpeg' class="img-thumbnail float-left img-responsive" id="thumbnail">
-				<small>
-					<p id="aboutMeParagraph">This is about me...</p>
-				</small>
-			</section>
+			</div>
+
+
+			<!-- About Section (Content) -->
+			<div class="row p-2">
+				
+				<!-- About Section (Image) -->
+				<div class="col-sm-2">
+					<img src='../images/abbyautin.jpeg' class='img-thumbnail float-left img-responsive'>	
+				</div>
+				
+				<!-- About Section (content) -->
+				<div class="col-sm-10">
+					<small>
+						<p id="aboutMeParagraph">Hotelier. Revenue Director. Student in Finance and Computer Science.</p>
+					</small>	
+				</div>
+				
+			</div>
 		</div>
 
 

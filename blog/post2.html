@@ -93,18 +93,6 @@
 
 			}
 
-			#aboutMeSection{
-				font-family: 'Libre Caslon Display', serif;
-				padding-left: 15px;
-
-			}
-
-
-			/*to be applied to portrait image in About section*/
-			#thumbnail {
-				width: 15%
-
-			}
 
 			#blogImage{
 				width: 53%
@@ -116,9 +104,18 @@
 				background-color: #faf7f7
 			}
 
+
+			#aboutMeSection{
+				font-family: 'Libre Caslon Display', serif;
+				padding-left: 15px;
+
+			}
+
 			#aboutMeParagraph{
 				font-family: 'Pontano Sans', sans-serif;
+
 			}
+
 
 			.navbar-custom{
 				background-color: #1f1715
@@ -185,6 +182,7 @@
 				<h3>The Implementation</h3>
 				<br>
 			
+				<img id="blogImage" class="img-fluid p-3" src='../images/blog_images/skillsSection.png'>
 				<p>
 					
 				The steps taken to carry this out:
@@ -195,7 +193,7 @@
 				<br>
 				-	created a class to html file to style the accordion
 				<br>
-				-	added link (inside script) to link to JS file
+				-	added link (inside script) to JS file
 				<br>
 				-	created a JS file to include instructions to make the accordion interactive 
 				<br>
@@ -236,15 +234,34 @@
 
 		<!------------------------------------------------------------------------------->
 		<!-- ENDING Section -->
-		<div class="container-xl p-1">
-			<section>
+
+		<div id="aboutMeSection">
+			
+
+			<!-- About Section (Header) -->
+			<div>
 				<h4>About Abby</h4>
-				<img src='../images/blog_images/abbyautin.jpeg' class="img-thumbnail float-left img-responsive" id="thumbnail">
-				<small>
-					<p id="aboutMeParagraph">This is about me...</p>
-				</small>
-			</section>
+			</div>
+
+
+			<!-- About Section (Content) -->
+			<div class="row p-2">
+				
+				<!-- About Section (Image) -->
+				<div class="col-sm-2">
+					<img src='../images/abbyautin.jpeg' class='img-thumbnail float-left img-responsive'>	
+				</div>
+				
+				<!-- About Section (content) -->
+				<div class="col-sm-10">
+					<small>
+						<p id="aboutMeParagraph">Hotelier. Revenue Director. Student in Finance and Computer Science.</p>
+					</small>	
+				</div>
+				
+			</div>
 		</div>
+	
 
 
 		<!-- inserted the script tags from lab #3 -->
